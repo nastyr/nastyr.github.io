@@ -10,12 +10,8 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  flex-direction: row;
   flex-direction: column;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -29,15 +25,25 @@ body {
 
 }
 
+
+.img-wrapper {
+  display: flex;
+}
+
+.img-wrapper a {
+  display: block;
+  margin-right: 10px;
+}
+
 img {
   max-width: 100%;
   height: auto;
-}
+  }
 
 a {
   text-decoration: none;
   color: #1C7C5B;
-  border-bottom: 1px solid #B1D9C5;
+  border-bottom: 0px solid #B1D9C5;
   -webkit-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
@@ -67,4 +73,10 @@ h2 {
   margin-top: 40px;
   margin-bottom: 25px;
   font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .img-wrapper {
+    flex-direction: column;
+  }
 }
