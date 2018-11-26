@@ -1,1 +1,0 @@
-# nastyr.github.io
