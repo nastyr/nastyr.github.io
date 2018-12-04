@@ -18,4 +18,12 @@ const setLanguage = (e) => {
     });
 };
 
+const copyEmail = () => {
+  const email = document.querySelector('.copy');
+
+  email.select();
+  document.execCommand('copy');
+};
+
+document.querySelector('.copy').addEventListener('click', copyEmail);
 document.addEventListener('click', setLanguage);

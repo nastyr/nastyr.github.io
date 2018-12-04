@@ -87,7 +87,7 @@ main {
   margin-bottom: 90px;
 }
 
-img {
+img, video {
   height: auto;
   width: 100%;
   max-width: 100%;
@@ -98,7 +98,7 @@ button {
 }
 
 a {
-  color: #000000;
+  color: #373737;
   text-decoration: none;
 }
 
@@ -116,13 +116,9 @@ address {
   font-style: normal;
 }
 
-.link {
-  text-decoration: underline;
-}
-
 .link:hover,
 .link:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Хеадер */
@@ -270,7 +266,7 @@ address {
 
 .section-title {
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   font-size: 47px;
   font-size: var(--font-size-section-title);
   line-height: 1.4;
@@ -283,15 +279,21 @@ address {
   font-size: var(--font-size-sub-section-title);
 }
 
+
+
 .section-intro p {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.project-description{
+  margin-bottom: 80px;
 }
 
 .sub-section {
   display: block;
   margin-bottom: 30px;
-  border: 1px #000000 solid;
+  border: 1px #373737 solid;
   transition: background-color ease 0.3s;
 }
 
@@ -300,7 +302,7 @@ address {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 15px;
-  border-top: 1px #000000 solid;
+  border-top: 1px #373737 solid;
 }
 
 .sub-section-tools .sub-section-content,
@@ -379,6 +381,7 @@ details[open] .arrow-collapse {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  color: #373737;
   padding-right: 20px;
   padding-left: 20px;
   text-align: left;
@@ -423,7 +426,7 @@ details[open] .arrow-collapse {
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 70px;
-  border: 1px #000000 solid;
+  border: 1px #373737 solid;
   transition: background-color ease 0.3s;
 }
 
@@ -438,7 +441,7 @@ details[open] .arrow-collapse {
 
 .contact-item {
   margin-bottom: 30px;
-  border: 1px #000000 solid;
+  border: 1px #373737 solid;
   transition: background-color ease 0.3s;
 }
 
@@ -530,7 +533,7 @@ details[open] .arrow-collapse {
   }
 
   .section-intro .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
   }
 
   .section {
@@ -748,7 +751,7 @@ details[open] .arrow-collapse {
   margin-bottom: 90px;
 }
 
-.project-image {
+.project-media {
   margin-bottom: 50px;
   padding-right: 40px;
   padding-left: 40px;
