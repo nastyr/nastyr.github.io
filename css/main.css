@@ -763,8 +763,29 @@ details[open] .arrow-collapse {
 
 .project-media {
   margin-bottom: 50px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 360px) {
+  .project-media {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .project-media {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-media {
+    padding-right: 25px;
+    padding-left: 40px;
+  }
 }
 
 .visually-hidden {
