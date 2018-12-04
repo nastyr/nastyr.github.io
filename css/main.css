@@ -419,6 +419,16 @@ details[open] .arrow-collapse {
   background-color: var(--color-section-4);
 }
 
+.sub-section-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sub-section-inner p {
+  margin: 0;
+}
+
 .project-item {
   position: relative;
   margin-bottom: 30px;
