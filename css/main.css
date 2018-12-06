@@ -799,3 +799,7 @@ details[open] .arrow-collapse {
   overflow: hidden;
   white-space: nowrap;
 }
+
+.ll {
+  background-color: #F3F3F3;
+}
