@@ -83,6 +83,12 @@ body {
   overflow-x: hidden;
 }
 
+
+.ll {
+  background-color: #F3F3F3;
+}
+
+
 main {
   margin-bottom: 90px;
 }
@@ -798,8 +804,4 @@ details[open] .arrow-collapse {
   clip: rect(0 0 0 0);
   overflow: hidden;
   white-space: nowrap;
-}
-
-.ll {
-  background-color: #F3F3F3;
 }
